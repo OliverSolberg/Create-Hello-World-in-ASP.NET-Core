@@ -8,7 +8,7 @@ public class informationOrganizer
         int length = person.Hobbies.Length;
 
         if(length < 2)
-            return "My hobby is " + person.Hobbies[0]
+            return "My hobby is " + person.Hobbies[0];
         
         string result = string.Join(" ", person.Hobbies.Take(length -1));
         return "My hobbies are " + result + " and " + person.Hobbies[^1];
