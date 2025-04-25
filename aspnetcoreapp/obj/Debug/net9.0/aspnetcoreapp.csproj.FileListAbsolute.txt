@@ -96,3 +96,4 @@ C:\Users\vu108\Documents\VSC oppgaver\Create Hello World in ASP.NET Core\aspnetc
 C:\Users\vu108\Documents\VSC oppgaver\Create Hello World in ASP.NET Core\aspnetcoreapp\obj\Debug\net9.0\aspnetcoreapp.genruntimeconfig.cache
 C:\Users\vu108\Documents\VSC oppgaver\Create Hello World in ASP.NET Core\aspnetcoreapp\obj\Debug\net9.0\ref\aspnetcoreapp.dll
 C:\Users\vu108\Documents\VSC oppgaver\Create Hello World in ASP.NET Core\aspnetcoreapp\obj\Debug\net9.0\aspnetcoreapp.sourcelink.json
+C:\Users\vu108\Documents\VSC oppgaver\Create Hello World in ASP.NET Core\aspnetcoreapp\bin\Debug\net9.0\data\people.json

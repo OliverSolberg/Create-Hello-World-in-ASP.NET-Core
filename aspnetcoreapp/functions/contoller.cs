@@ -8,7 +8,7 @@ public class Controllers()
             List<Person> list = JsonSerializer.Deserialize<List<Person>>(File.ReadAllText("data/people.json"),
                         new JsonSerializerOptions {WriteIndented = true, PropertyNameCaseInsensitive = true})
                         ?? new List<Person>();
-            return list.Single(o => o.Id == id);
+            return list.SingleOrDefault(o => o.Id == id);
         }
         return null;
     }
