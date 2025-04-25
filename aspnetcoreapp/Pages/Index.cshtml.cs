@@ -7,7 +7,7 @@ namespace aspnetcoreapp.Pages;
 public class IndexModel : PageModel
 {
     Controllers ctrl = new Controllers();
-    informationOrganizer ino = new informationOrganizer();
+    InformationOrganizer ino = new InformationOrganizer();
     private readonly ILogger<IndexModel> _logger;
 
     public IndexModel(ILogger<IndexModel> logger)
@@ -17,6 +17,6 @@ public class IndexModel : PageModel
     public string Hobbies {get; private set;} = "I have no hobbies test";
     public void OnGet()
     {
-        Hobbies = ino.listOutHobbies(ctrl.GetPerson(1) ?? new Person());
+        Hobbies = ino.ListOutHobbies(ctrl.GetPerson(1) ?? new Person());
     }
 }
